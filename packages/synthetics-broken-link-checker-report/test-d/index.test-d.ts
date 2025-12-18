@@ -2,11 +2,10 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { expectType } from 'tsd';
-import brokenLinkCheckerReport = require('../lib');
-import { BrokenLinkCheckerReport } from '../lib/BrokenLinkCheckerReport';
+import BrokenLinkCheckerReport = require('../lib');
 import SyntheticsLink from '@aws/synthetics-link';
 
-expectType<typeof BrokenLinkCheckerReport>(brokenLinkCheckerReport);
+expectType<typeof BrokenLinkCheckerReport>(BrokenLinkCheckerReport);
 
 const report = new BrokenLinkCheckerReport();
 expectType<BrokenLinkCheckerReport>(report);

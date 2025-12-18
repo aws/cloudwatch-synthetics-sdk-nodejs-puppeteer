@@ -2,11 +2,10 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import { expectType } from 'tsd';
-import syntheticsLink = require('../lib');
-import { SyntheticsLink } from '../lib/SyntheticsLink';
+import SyntheticsLink = require('../lib');
 
 // Test basic link export - should be the constructor
-expectType<typeof SyntheticsLink>(syntheticsLink);
+expectType<typeof SyntheticsLink>(SyntheticsLink);
 
 // Test constructor and methods
 const link = new SyntheticsLink('https://example.com');
