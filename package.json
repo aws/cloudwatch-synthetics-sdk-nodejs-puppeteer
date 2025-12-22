@@ -1,0 +1,22 @@
+{
+  "name": "aws-cloudwatch-synthetics-sdk-nodejs-puppeteer",
+  "version": "14.0.0",
+  "private": true,
+  "license": "Apache-2.0",
+  "author": {
+    "name": "Amazon Web Services"
+  },
+  "devDependencies": {
+    "lerna": "^6.6.2",
+    "tsd": "^0.25.0",
+    "typescript": "^4.4.4",
+    "puppeteer-core": "24.25.0",
+    "@types/node": "^20.10.0"
+  },
+  "dependencies": {
+    "@aws/synthetics-link": "file:packages/synthetics-link"
+  },
+  "engines": {
+    "node": ">= 18.x"
+  }
+}
