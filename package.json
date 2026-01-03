@@ -1,6 +1,6 @@
 {
-  "name": "aws-cloudwatch-synthetics-sdk-nodejs-puppeteer",
-  "version": "14.0.0",
+  "name": "cloudwatch-synthetics-sdk-nodejs-puppeteer",
+  "version": "13.1.0",
   "private": true,
   "license": "Apache-2.0",
   "author": {

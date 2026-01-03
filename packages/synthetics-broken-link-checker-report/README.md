@@ -1,6 +1,6 @@
-# AWS CloudWatch Synthetics Node.js Puppeteer Runtime Broken Link Checker Report Library
+# Type Support for Amazon CloudWatch Synthetics Node.js Puppeteer Runtime Broken Link Checker Report Library
 
-TypeScript type definitions for AWS CloudWatch Synthetics broken link checker reporting functionality in `syn-nodejs-puppeteer-*` runtime.
+TypeScript type definitions for Amazon CloudWatch Synthetics broken link checker reporting functionality in `syn-nodejs-puppeteer-*` runtime.
 
 ## Installation
 
@@ -28,7 +28,7 @@ const totalCount = brokenLinkCheckerReport.getTotalLinksChecked();
 
 ## TypeScript Support
 
-This package provides complete TypeScript type definitions for the AWS CloudWatch Synthetics Node.js Puppeteer runtime broken link checker report functionality, enabling full IntelliSense support and type checking in your canary scripts.
+This package provides complete TypeScript type definitions for the Amazon CloudWatch Synthetics Node.js Puppeteer runtime broken link checker report functionality, enabling full IntelliSense support and type checking in your canary scripts.
 
 ## Security
 
