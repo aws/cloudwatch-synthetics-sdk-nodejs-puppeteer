@@ -1,6 +1,6 @@
-# AWS CloudWatch Synthetics Type Support for Node.js Puppeteer Runtime Link Object
+# Type Support for Amazon CloudWatch Synthetics Node.js Puppeteer Runtime Link Object
 
-TypeScript type definitions for AWS CloudWatch Synthetics link objects in `syn-nodejs-puppeteer-*` runtime.
+TypeScript type definitions for Amazon CloudWatch Synthetics link objects in `syn-nodejs-puppeteer-*` runtime.
 
 ## Installation
 
@@ -31,7 +31,7 @@ link.addScreenshotResult('screenshot.png');
 
 ## TypeScript Support
 
-This package provides complete TypeScript type definitions for the AWS CloudWatch Synthetics Node.js runtime link objects, enabling full IntelliSense support and type checking in your canary scripts.
+This package provides complete TypeScript type definitions for the Amazon CloudWatch Synthetics Node.js Puppeteer runtime link objects, enabling full IntelliSense support and type checking in your canary scripts.
 
 ## Security
 

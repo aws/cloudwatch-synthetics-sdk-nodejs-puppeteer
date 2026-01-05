@@ -1,7 +1,7 @@
 {
   "name": "@aws/synthetics-broken-link-checker-report",
-  "version": "14.0.0",
-  "description": "AWS CloudWatch Synthetics Type Support for syn-nodejs-puppeteer-* runtime",
+  "version": "13.1.0",
+  "description": "Amazon CloudWatch Synthetics Type Support for syn-nodejs-puppeteer-* runtime",
   "main": "lib/index.d.ts",
   "types": "lib/index.d.ts",
   "files": [
@@ -18,7 +18,7 @@
   "engines": {
     "node": ">= 18.x"
   },
-  "repository": "https://github.com/aws/aws-cloudwatch-synthetics-sdk-nodejs-puppeteer",
+  "repository": "https://github.com/aws/cloudwatch-synthetics-sdk-nodejs-puppeteer",
   "keywords": [
     "amazon",
     "aws",
@@ -28,7 +28,7 @@
     "puppeteer"
   ],
   "peerDependencies": {
-    "@aws/synthetics-link": "14.00.0"
+    "@aws/synthetics-link": "13.1.0"
   },
   "author": "Amazon Web Services",
   "license": "Apache-2.0"

@@ -1,6 +1,6 @@
-# AWS CloudWatch Synthetics Type Support for Node.js Puppeteer Runtime Log Helper Class
+# Type Support for Amazon CloudWatch Synthetics Node.js Puppeteer Runtime Log Helper Class
 
-TypeScript type definitions for AWS CloudWatch Synthetics log helper class in `syn-nodejs-puppeteer-*` runtime.
+TypeScript type definitions for Amazon CloudWatch Synthetics log helper class in `syn-nodejs-puppeteer-*` runtime.
 
 ## Installation
 
@@ -23,8 +23,7 @@ const sanitizedUrl = syntheticsLogHelper.getSanitizedUrl('URL', urlConfig);
 ```
 
 ## TypeScript Support
-
-This package provides complete TypeScript type definitions for the Synthetics log helper, enabling full IntelliSense support and type checking in your canary scripts.
+This package provides complete TypeScript type definitions for the Amazon CloudWatch Synthetics Node.js Puppeteer runtime log helper class, enabling full IntelliSense support and type checking in your canary scripts.
 
 ## License
 

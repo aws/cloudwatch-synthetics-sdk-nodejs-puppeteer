@@ -1,6 +1,6 @@
-# AWS CloudWatch Synthetics Type Support for Node.js Puppeteer Runtime
+# Type Support for Amazon CloudWatch Synthetics Node.js Puppeteer Runtime
 
-TypeScript type definitions for AWS CloudWatch Synthetics `syn-nodejs-puppeteer-*` runtime.
+TypeScript type definitions for Amazon CloudWatch Synthetics `syn-nodejs-puppeteer-*` runtime.
 
 ## Installation
 
@@ -48,7 +48,7 @@ const runCanary = async () => {
 
 ## TypeScript Support
 
-This package provides complete TypeScript type definitions for the AWS CloudWatch Synthetics Node.js Puppeteer runtime, enabling full IntelliSense support and type checking in your canary scripts.
+This package provides complete TypeScript type definitions for the Amazon CloudWatch Synthetics Node.js Puppeteer runtime, enabling full IntelliSense support and type checking in your canary scripts.
 
 ## Security
 
