@@ -1,0 +1,34 @@
+name: Publish to npm
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          registry-url: 'https://registry.npmjs.org'
+      
+      - name: Install dependencies
+        run: |
+          npm install --ignore-scripts
+
+      - name: Build and test
+        run: |
+          npm run compile --workspaces
+      
+      - name: Publish packages to NPM
+        run: |
+          npm publish --workspace=packages/synthetics-link --access public
+          npm publish --workspace=packages/synthetics-logger --access public
+          npm publish --workspace=packages/synthetics-log-helper --access public
+          npm publish --workspace=packages/synthetics-puppeteer --access public
+          npm publish --workspace=packages/synthetics-broken-link-checker-report --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
