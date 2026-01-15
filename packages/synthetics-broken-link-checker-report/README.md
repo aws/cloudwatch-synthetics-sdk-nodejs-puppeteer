@@ -4,6 +4,8 @@ TypeScript type definitions for Amazon CloudWatch Synthetics broken link checker
 
 ## Installation
 
+Please ensure the type definition package version matches your canary's runtime version.
+
 ```bash
 npm install @aws/synthetics-broken-link-checker-report
 ```

@@ -4,6 +4,8 @@ TypeScript type definitions for Amazon CloudWatch Synthetics link objects in `sy
 
 ## Installation
 
+Please ensure the type definition package version matches your canary's runtime version.
+
 ```bash
 npm install @aws/synthetics-link
 ```
