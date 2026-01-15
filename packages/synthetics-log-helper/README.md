@@ -4,6 +4,8 @@ TypeScript type definitions for Amazon CloudWatch Synthetics log helper class in
 
 ## Installation
 
+Please ensure the type definition package version matches your canary's runtime version.
+
 ```bash
 npm install @aws/synthetics-log-helper
 ```
