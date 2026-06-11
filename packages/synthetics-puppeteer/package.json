@@ -1,6 +1,6 @@
 {
   "name": "@aws/synthetics-puppeteer",
-  "version": "13.1.0",
+  "version": "14.0",
   "description": "Amazon CloudWatch Synthetics Type Support for syn-nodejs-puppeteer-* runtime",
   "main": "lib/index.d.ts",
   "types": "lib/index.d.ts",
@@ -28,7 +28,7 @@
     "puppeteer"
   ],
   "dependencies": {
-    "puppeteer-core": "24.25.0"
+    "puppeteer-core": "24.34.0"
   },
   "author": "Amazon Web Services",
   "license": "Apache-2.0"
