@@ -1,6 +1,6 @@
 {
   "name": "@aws/synthetics-logger",
-  "version": "14.0.0",
+  "version": "15.0.0",
   "description": "Amazon CloudWatch Synthetics Type Support for syn-nodejs-puppeteer-* runtime",
   "main": "lib/index.d.ts",
   "types": "lib/index.d.ts",
